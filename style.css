@@ -1,0 +1,291 @@
+ .bg1
+{
+background-color:black;
+margin-top:15px;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: ghostwhite;
+}
+
+.grid-nav1
+{
+display: grid;
+grid-template-columns: auto auto ;
+margin-left:150px;
+}
+.grid-item1
+{
+font-size:40px;
+font-weight:bold;
+}
+.grid-item2
+{
+display:grid;
+grid-template-columns:auto auto auto auto auto ;
+margin-top:20px;
+column-gap:20px;
+justify-content: end;
+}
+.grid-item2 > div 
+{
+font-size:22px;
+}
+*,*::before,*::after
+{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+.grid-item2 > div > a
+{
+color:ghostwhite;
+text-decoration:none;
+position: relative;
+}
+.grid-item2 > div > a::after
+{
+    content:"" ;
+    position: absolute;
+    background-color: #ff004f;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+.grid-item2 > div > a:hover::after
+{
+    width: 100%;
+}    
+.item5
+{
+margin-right:100px;
+}
+.heading1
+{
+    margin-top:200px;
+   margin-left: 150px;
+}
+.head1
+{
+font-size:20px;
+margin-bottom: 0px;
+}
+.head2
+{
+margin-top:10px;
+font-size:40px;
+}
+.bg2
+{
+background-color:rgb( 18, 18, 18);
+margin-top: 200px;
+}
+.grid-about
+{
+display: grid;
+grid-template-columns:auto auto auto;
+padding-top:100px;
+column-gap:20px;
+}
+.grid-item3 >img
+{
+width:350px;
+height:500px;
+margin-left:100px;
+border-radius: 20px;
+}
+.ab1
+{
+font-size:45px;
+font-weight:bold;
+margin-bottom:0px;
+}
+.ab2
+{
+font-size:20px;
+margin-top:0px;
+}
+.nav-item:hover
+{
+background-color:rgb(120, 110, 18);
+}
+.services
+{
+margin-top:100px;
+margin-left:100px;
+margin-right:200px;
+
+}
+.services > p {
+font-size: 45px;
+font-weight:bold;
+}
+.grid-services
+{
+display:grid;
+grid-template-columns:auto auto auto ;
+column-gap:20px;
+}
+.card1
+{
+background-color:rgb(43, 43, 43);
+border-radius:10px;
+padding:20px;
+width:400px;
+transition:background-color 0.5s,transform 0.5s;
+}
+.card1 > p
+{
+font-size:14px;
+}
+.card1 > a
+{
+text-decoration: none;
+color: ghostwhite;
+font: 12px;
+}
+.card1:hover
+{
+background-color:red;
+transform:translateY(-10px);
+}
+.portfolio
+{
+    margin-top: 100px;
+    margin-left: 100px;
+    
+}
+.port-grid
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+}
+.p1
+{
+font-size:50px;
+font-weight: bold;
+}
+.port-grid > div >img
+{
+width: 300px;
+height: 400px;
+border-radius:20px ;
+}
+.grid-item10
+{
+    margin-right: 200px;
+}
+.portfolio >p >a
+{
+    text-decoration: none;
+    color:ghostwhite
+}
+.p2
+{
+    font-size:20px;
+    text-align: center;
+    border:1px solid #ff004f;
+    margin-top: 50px;
+    margin-left:400px;
+    margin-right: 100px;
+    border-radius: 10px;
+    padding-top:5px;
+    width: 300px;
+    height:60x;
+}
+.p2:hover
+{
+background-color: #ff004f;
+}
+.contact
+{
+    margin-left: 100px;
+    margin-top: 200px;
+}
+.grid-contact
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 60px;
+}
+.grid-item11 > div
+{
+    margin-top: 10px;
+    font-size: 55px;
+    font-weight: bold;
+    color: #ff004f;
+}
+.grid-item11 > p
+{
+    font-size: 25px;
+    margin-top: 50px;
+}
+.grid-item11 > button
+{
+    color: ghostwhite;
+    background-color: #ff004f;
+    font-size: 22px;
+    border: none;
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.grid-item11 > button > a
+{
+    text-decoration:none;
+    color: ghostwhite;
+}
+.grid-item12
+{
+    margin-top:0px ;
+}
+.grid-item12 > form > div
+{
+    margin-top: 28px;
+}
+input
+{
+ background-color: rgb(47, 46, 48);
+ width: 800px;
+ height: 60px;
+ border:none;
+ border-radius: 15px;
+ color: ghostwhite;
+}
+::place holder
+{
+padding-left: 5px;
+}
+textarea
+{
+    background-color: rgb(47, 46, 48);
+    border: none;
+    border-radius: 15px;
+    color: ghostwhite;
+}
+
+textarea::placeholder
+{
+    padding-top:20px;
+}
+.grid-item12 > form > div> button
+{
+    color: ghostwhite;
+    background-color: #ff004f;
+    font-size: 22px;
+    border: none;
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 10px;
+    width: 200px;
+    margin-bottom: 100px;
+}
+.copyrights
+{
+    background-color: rgb(61, 60, 60);
+    height:50px;
+    text-align: center;
+    padding-top: 20px ;
+    color: ghostwhite;
+}
